@@ -1,0 +1,206 @@
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+}
+h1{
+text-align:left;
+padding:52px 0px 5px 290px;
+color:#fff;
+background-color:#930d6c;
+font-size:36px;
+}
+
+p, ul {
+font-size:large;
+color:#444;
+
+}
+
+h2{
+padding-top:20px;
+font-size:xx-large;
+}
+
+p{
+margin:4px 0px 4px 0px;
+}
+
+h3{
+	margin:20px 0px 0px 0px;
+	font-size:x-large;
+	color:#930d6c;
+}
+
+html {
+height:100%;
+width:100%;
+}
+
+body{
+background-image:url(../images/bg_bottom_right.jpg);
+background-repeat:no-repeat;
+background-position:right bottom;
+background-color:#fff;
+font-family:Tahoma, Geneva, sans-serif;
+width:100%;
+height:100%;
+}
+
+#navigation{
+float:left;
+height:100%;
+background-color:#000000;
+width:250px;
+text-align:center;
+background-image:url(../images/oup_logo_black.gif);
+background-repeat:no-repeat;
+background-position: center bottom;
+}
+
+#navigation ul{
+margin-top:20px;
+width:250px;
+
+}
+#navigation li{
+list-style-type: none;
+width:250px;
+}
+
+
+#navigation a {
+text-align:left;
+display:block;
+width:240px;
+color:#fff;
+font-size:large;
+font-weight:bold;
+padding:5px 0px 5px 10px;
+text-decoration:none;
+border-top:1px solid #fff;
+border-bottom:1px solid #fff;
+margin:0px;
+}
+
+#navigation li:hover {
+background-color:#006699;
+}
+
+
+#home{background-color:#fff;}
+
+#sectiontitle{
+height:40px;
+overflow:hidden;
+margin:10px 0px 6px 0px;
+padding-left:40px;
+
+}
+
+#content{
+height:70%;
+margin-right:20px;
+overflow:auto;
+margin-top:0px;
+padding-left:40px;
+border-top:1px dotted #ccc;
+border-bottom:2px dotted #ccc;
+/*background-color:#fff;*/
+}
+#content ul{
+
+}
+#content li{
+list-style:none;
+font-size:x-small;
+color:#999999;
+margin:10px 0px 12px 0px;
+
+}
+#content a{
+color:#0033CC
+}
+
+#content a.word{
+padding:5px 10px 5px 40px;
+background-image:url(../images/document_icon.gif);
+background-repeat:no-repeat;
+background-position: left center;
+font-size:large;
+}
+
+#content a.word:hover{
+text-decoration:none;
+background-image:url(../images/document_icon_over.gif);
+background-repeat:no-repeat;
+background-position: left center;
+color:#ff9966;
+}
+
+#content a.pdf{
+
+padding:5px 10px 5px 40px;
+background-image:url(../images/document_icon_pdf.gif);
+background-repeat:no-repeat;
+background-position: left center;
+font-size:large;
+}
+
+#content a.pdf:hover{
+text-decoration:none;
+background-image:url(../images/document_icon_over_pdf.gif);
+background-repeat:no-repeat;
+background-position: left center;
+color:#ff9966;
+}
+
+#footer{
+margin-left:40px;
+color:#ccc;
+text-align:left;
+height:30px;
+height:20px;
+overflow:hidden;
+font-size:x-small;
+}
+
+#howto img {
+margin-right:10px;
+}
+
+#sollogo{padding:0px 0px 0px 0px
+}
+
+#web {
+width:60%;
+overflow:hidden;
+margin-top:20px;
+padding-left:40px;
+
+}
+
+#web p{
+margin-bottom:20px;
+font-size:medium;
+font-weight:bold;
+color:#ccc;
+}
+
+#oup{
+margin-top:45px
+}
+
+#home li{
+font-size:large;
+color:#444;
+list-style-type:disc;
+margin:8px 0px 8px 30px
+}
+
+.level_colour{color:#663366}
+
+.pdfx{
+font-size:x-small;
+color:#999999;
+}
